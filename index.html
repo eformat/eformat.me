@@ -2,18 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="/node_modules/patternfly/dist/css/patternfly.css">
-  <link rel="stylesheet" type="text/css" href="/node_modules/patternfly/dist/css/patternfly-additions.css">
+  <link rel="stylesheet" href="https://unpkg.com/@patternfly/patternfly/patternfly.css" crossorigin="anonymous" />
 </head>
 <body>
-  <div class="container">
+  <div class="pf-l-bullseye">
     <!-- Just enjoy various PatternFly components -->
-    <div class="alert alert-success">
-      <span class="pficon pficon-ok"></span>
-      <strong>eformat</strong> This is really working out <a href="#" class="alert-link">great</a>.
+    <div class="pf-c-menu">
+      <div class="pf-l-bullseye__item">
+        <strong>This is really working out great</strong>
+      </div>
+      <img style="height:auto;" alt="" width="260" height="260" class="" src="https://avatars.githubusercontent.com/u/712608?v=4" />
+        <div class="pf-c-menu__content">
+          <ul class="pf-c-menu__list" role="menu">
+            <li class="pf-c-menu__list-item" role="none">
+              <button class="pf-c-menu__item" type="button" role="menuitem">
+                <span class="pf-c-menu__item-main">
+                  <span class="pf-c-menu__item-icon">
+                    <i class="fas fa-fw fa-code-branch" aria-hidden="true"></i>
+                  </span>
+                  <span class="pf-c-menu__item-text">Reduce Cognitive Load</span>
+                </span>
+              </button>
+            </li>
+            <li class="pf-c-menu__list-item" role="none">
+              <button class="pf-c-menu__item" type="button" role="menuitem">
+                <span class="pf-c-menu__item-main">
+                  <span class="pf-c-menu__item-icon">
+                    <i class="fas fa-fw fa-layer-group" aria-hidden="true"></i>
+                  </span>
+                  <span class="pf-c-menu__item-text">Lower Operational Burden</span>
+                  </span>
+              </button>
+            </li>
+            <li class="pf-c-menu__list-item" role="none">
+              <button class="pf-c-menu__item" type="button" role="menuitem">
+                <span class="pf-c-menu__item-main">
+                  <span class="pf-c-menu__item-icon">
+                    <i class="fas fa-fw fa-cube" aria-hidden="true"></i>
+                  </span>
+                  <span class="pf-c-menu__item-text">Optimize For Fast Flow</span>
+                </span>
+              </button>
+            </li>
+          </ul>
+        </div>
     </div>
-    <img style="height:auto;" alt="" width="260" height="260" class="avatar avatar-user width-full border color-bg-default" src="https://avatars.githubusercontent.com/u/712608?v=4">    
-  </div>
+    </div>
   <script src="/node_modules/jquery/dist/jquery.js"></script>
   <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
